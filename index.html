@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="imagenes/logo.ico">
+		<meta name="viewport" content="width = device-width">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+		<title>Ahorcado Challenge</title>
+	</head>
+	<body>
+		<main>
+
+			<h1><img id="logo" src="imagenes/logoAlura.png"></h1>
+
+			<canvas width="1200px" height="800px" class="invisible"></canvas>
+
+			<section id="section-botones">
+				<button id="inicio-juego" class="botones-inicio">Iniciar Juego</button>
+				<button id="agrego-palabra" class="botones-inicio">Agregar Palabra</button>
+			</section>
+			
+			<section id="nuevos-botones" class="invisible">
+				<button id="boton-nuevo-juego" class="botones-reinicio">Nuevo Juego</button>
+				<button id="boton-desistir" class="botones-reinicio">Desistir</button>
+			</section>
+
+		</main>
+		<script src="js/iniciarJuego.js"></script>
+		<script src="js/agregarPalabra.js"></script>
+	</body>
+</html>
